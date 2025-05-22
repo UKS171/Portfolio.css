@@ -1,2 +1,64 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+{
+    box-sizing:content-box;
+    cursor:auto;
+}
+.heading{
+    width: 33%;
+    margin :1px 1px 20px 1px;
+    padding: 4px;
+    border: 1px dashed blue;
+    border-radius: 1px;
+}
+.avatar{
+    margin: 1px 1px 12px 1px;
+    border: 1px groove antiquewhite;
+    border-radius: 50%;
+}
+.aboutme{
+    width: 13%;
+    margin: 1px 1px 12px 1px;
+    padding: 3px;
+    border: 1px  dotted brown;
+}
+.smallheading{
+    width: 27%;
+    margin: 1px;
+    padding: 3px;
+}
+.footer{
+    background-color: chartreuse;
+    width: 13%;
+    margin: 1px;
+    padding: 5px;
+    border: 2px double chocolate;
+    border-radius: 2px;
+}
+/* Unvisited Links */
+a:link{
+    color:darkslateblue;
+}
+a:visited{
+    color:darkslategray;
+}
+.description{
+    color:darkslategrey;
+}
+::selection{
+    background-color:darkturquoise;
+    color:darkviolet;
+}
+.portfolio{
+    position:fixed;
+    right: 10px;
+    top: 10px;
+}
+.aboutus{
+    position:fixed;
+    right: 10px;
+    top: 10px;
+}
+.whatsapp{
+    position:fixed;
+    right: 10px;
+    top: 10px;
+}
